@@ -1,4 +1,4 @@
-<p>
-  <%= post.title %>
-  <%= post.body %>
-</p>
+<h1><%= post.title %></h1>
+<h6><%= time_ago_in_words post.created_at.to_datetime %> ago</h6>
+<p><%= post.body %></p>
+
