@@ -1,11 +1,21 @@
-<p> CITIES </p>
-
 <% @cities.each do |city| %>
   <p><%= city.name %></p>
   <p><%= city.country %></p>
   <p><<%= city.photoURL %></p>
   <%= link_to 'show', city_path(city) %>
+<% end %>
 
+<% @cities.each do |c| %>
 
+    <div class="row">
+      <div class="col s12 m7">
+        <div class="card">
+          <div class="card-image">
+            <%= link_to image_tag('http://lorempixel.com/800/400/food/1'), c  %>
+            <span class="card-title"><%= c.name %></span>
+          </div>
+        </div>
+      </div>
+    </div>
 
 <% end %>
