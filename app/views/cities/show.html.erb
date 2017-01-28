@@ -2,10 +2,10 @@
 <%= link_to image_tag('http://lorempixel.com/800/400/food/1') %>
 
 <button class="btn">Add Post</button>
+<a class="waves-effect waves-light btn">Add Post</a>
+<%= link_to "New Post", new_city_post_path(@city) %>
 <!-- Modal Trigger -->
 <!--<a class="waves-effect waves-light btn">New Post</a>-->
-<%= link_to 'New Post', new_city_post_path %>
+
 
 <%= render @city.posts %>
-
-<%= render 'home/new_post_form' %>

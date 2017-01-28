@@ -14,7 +14,7 @@ class PostsController < ApplicationController
   end
 
   def new
-    @
+    @city = City.find params[:city_id]
   end
 
   def destroy
@@ -26,9 +26,8 @@ class PostsController < ApplicationController
   end
 
   private
-
   def post_params
-    params.require(:post).permit(:title,:body)
+    params.require(:post).permit(:title, :body, :author_id)
   end
 
 end
