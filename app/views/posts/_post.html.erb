@@ -1,6 +1,0 @@
-<p><%= post.title %></p>
-<p><%= time_ago_in_words post.created_at.to_datetime %> ago</p>
-<p><%= post.body %></p>
-<p><%= link_to 'Edit', edit_city_post_path(@city.id, post.id) %>
-<p><%= link_to 'Destroy', city_post_path(@city.id, post.id),
-        method: :delete, data: { confirm: 'Are you sure?' } %></p>
