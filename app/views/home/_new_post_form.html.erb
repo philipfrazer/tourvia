@@ -1,0 +1,32 @@
+<!-- Modal Structure -->
+<div id="new-post-modal" class="modal">
+  <div class="modal-content">
+    <h4>Modal Header</h4>
+
+    <%= form_for :post, url: new_city_post_path(:post), html: { class: 'form-horizontal'} do %>
+
+        <div class="row">
+          <form class="col s12">
+            <div class="row">
+              <div class="input-field col s12">
+                <input placeholder="Title" id="post_title" type="text" name="post[title]">
+                <label for="post_title">Title</label>
+              </div>
+
+            </div>
+
+            <div class="input-field col s12">
+              <textarea id="post_body" class="materialize-textarea" data-length="120" name="post[body]"></textarea>
+              <label for="post_body">Comment</label>
+            </div>
+
+          </form>
+        </div>
+
+        <button class="btn waves-effect waves-light" type="submit" name="POST">Submit
+          <i class="material-icons right">send</i>
+        </button>
+    <% end %>
+
+  </div>
+</div>

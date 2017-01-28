@@ -13,3 +13,13 @@
  *= require_tree .
  *= require_self
  */
+
+body{
+    margin: 10px;
+    font-family: 'Roboto', sans-serif;
+    /*background-color: black;*/
+}
+
+.city-image {
+    width: 400px;
+}

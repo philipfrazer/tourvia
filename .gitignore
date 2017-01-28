@@ -14,8 +14,7 @@
 !/log/.keep
 !/tmp/.keep
 DS_Store
-.idea
-Vs_code
+.idea/
 
 # Ignore Byebug command history file.
 .byebug_history

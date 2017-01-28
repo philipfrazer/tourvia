@@ -1,0 +1,22 @@
+<%= form_for ([@city, @post]) do |f| %>
+
+<div class="row">
+
+    <div class="row">
+        <%= f.label :title %>
+        <div class="input-field col s12">
+            <%= f.text_field :title %>
+        </div>
+
+    </div>
+
+    <%= f.label :body %>
+    <div class="input-field col s12">
+        <%= f.text_area :body %>
+    </div>
+
+</div>
+
+<%= f.submit class: "waves-effect waves-light btn" %>
+
+<% end %>
