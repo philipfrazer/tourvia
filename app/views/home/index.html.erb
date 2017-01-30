@@ -2,12 +2,19 @@
     <h1>Explore your world.</h1>
 </div>
 
+<!-- renders carousel partial -->
+<div>
+  <%= render 'home/carousel' %>
+</div>
+
+
+<!-- Displays each city on index page in a card that is a clickable link -->
 <div class="row">
     <% @cities.each do |city| %>
     <div class="col s12 m4 center">
         <div class="card">
             <div class="card-image">
-                <%= link_to image_tag('http://lorempixel.com/800/400/food/1'), city %>
+                <%= link_to image_tag(city.photoURL), city %>
                 <span class="card-title"><%= link_to city.name, city %></span>
             </div>
         </div>

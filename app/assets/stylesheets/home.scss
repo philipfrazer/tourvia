@@ -4,7 +4,7 @@
 
 .banner {
     margin-top: -20px;
-    height: 475px;
+    height: 300px;
     align: center;
     background-image: url(jk8rarn6lmw-ian-schneider.jpg);
     background-repeat: no-repeat;
@@ -36,4 +36,20 @@ nav {
   font-family: "Oswald";
   font-weight: bold;
   letter-spacing: 5px;
+}
+
+.carousel {
+  font-family: "Lobster", serif;
+  padding-top: 30px;
+  font-size: 5em;
+}
+
+.footer {
+  color: white;
+  font-family: "Oswald";
+  letter-spacing: 10px;
+}
+
+.carousel-div {
+  margin-top: 15px;
 }

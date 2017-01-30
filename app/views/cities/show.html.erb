@@ -1,15 +1,15 @@
 <h1><%= @city.name %></h1>
 
-<%= image_tag 'http://i.huffpost.com/gen/1716876/images/o-ATLANTA-TRAFFIC-facebook.jpg' %>
+<%= image_tag(@city.photoURL) %>
 
 <div class="new-post-button">
     <%= link_to "New Post", new_city_post_path(@city), class: "waves-effect waves-light btn-large right" %>
 </div>
 
-<div class="row">
 <!-- loops through and displays info for each city post -->
+<div class="row">
 <% @city.posts.order(created_at: :desc).each do |post| %>
-        <div class="col s12 m6">
+        <div class="col s12 m4">
             <div class="card blue-grey lighten-1">
                 <div class="card-content white-text">
                     <!-- <span class="card-title"><%= post.title %></span> -->
