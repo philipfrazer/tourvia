@@ -17,5 +17,7 @@
 
 // JQuery that allows carousel to work
 $(document).ready(function(){
-      $('.slider').slider();
-    });
+      $('.slider').slider({
+        height: 550,
+      });
+});
