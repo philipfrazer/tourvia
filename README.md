@@ -1,26 +1,7 @@
 # README
+Created web application that allows users to post about their visit to the listed cities. 
+Used Ruby on Rails and Materilaize to create the application. Deployed the app using Heroku.
 
-I'm changing the readme for test purposes.
+TrelloBoard: https://trello.com/b/IgY2gPux/vagaboard-project
+Deployment address: http://tourvia.herokuapp.com/cities
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
