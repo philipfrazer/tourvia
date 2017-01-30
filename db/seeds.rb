@@ -11,7 +11,7 @@ cities =  City.create([ {name: 'Atlanta', country: 'USA', photoURL: 'https://ima
                         {name: 'New York City', country: 'USA', photoURL: 'https://images.unsplash.com/photo-1423655156442-ccc11daa4e99'},
                         {name: 'Chicago', country: 'USA', photoURL: 'https://images.unsplash.com/photo-1471109880861-75a04f9b7833'},
                         {name: 'Nashville', country: 'USA', photoURL: 'https://images.unsplash.com/photo-1467989977606-1f97f7dc81fb'},
-                        {name: 'Miami', country: 'USA', photoURL: 'https://images.unsplash.com/photo-1478894091394-a9474df77d77'}]);
+                        {name: 'Miami', country: 'USA', photoURL: 'https://az760333.vo.msecnd.net/~/media/corporate/hotels-and-resorts/yve-hotel-miami/highlights/downtown-miami-night.jpg?la=en&ts=b9469c71-d054-42f3-9c98-258e47da1345'}]);
 
 posts = Post.create([ {title: '48 Hours in Atlanta', body: 'Atlanta: Lorem ipsum dolor sit amet, no his graeci possit, cu nec magna assum. Solum tritani mei no. No ius fuisset periculis philosophia, ut mei consul maiorum, tale pertinax sapientem vim eu. Clita lobortis qualisque no mei, ne mel purto solum recteque.', city_id: 1},
                       {title: 'Hotlanta', body: 'Atlanta: Lorem ipsum dolor sit amet, no his graeci possit, cu nec magna assum. Solum tritani mei no. No ius fuisset periculis philosophia, ut mei consul maiorum, tale pertinax sapientem vim eu. Clita lobortis qualisque no mei, ne mel purto solum recteque.', city_id: 1},
