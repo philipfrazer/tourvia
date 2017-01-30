@@ -1,0 +1,19 @@
+<!-- renders carousel partial -->
+<div>
+  <%= render 'cities/carousel' %>
+</div>
+
+
+<!-- Displays each city on index page in a card that is a clickable link -->
+<div class="row">
+    <% @cities.each do |city| %>
+    <div class="col s12 m4 center">
+        <div class="card">
+            <div class="card-image">
+                <%= link_to image_tag(city.photoURL), city %>
+                <span class="card-title city-title"><%= link_to city.name, city %></span>
+            </div>
+        </div>
+    </div>
+    <% end %>
+</div>
