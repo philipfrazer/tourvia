@@ -1,3 +1,59 @@
 // Place all the styles related to the City controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+h1 {
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    color: #ffffff;
+}
+
+.card-action {
+    color: #ffffff;
+}
+
+.new-post-button {
+    height: 75px;
+}
+
+.row {
+  margin-top: 10px;
+}
+
+.card-title {
+  font-family: "Oswald";
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+.carousel {
+  font-family: "Lobster", serif;
+  padding-top: 30px;
+  font-size: 5em;
+}
+
+.footer {
+  color: white;
+  font-family: "Oswald";
+  letter-spacing: 10px;
+}
+
+.carousel-div {
+  margin-top: 10px;
+}
+
+
+.card-image {
+  max-height: 140px;
+  margin-bottom: 150px;
+}
+
+.city-title {
+  background-color: #b4360f;
+}
