@@ -2,6 +2,22 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+.banner {
+    margin-top: -20px;
+    height: 475px;
+    align: center;
+    background-image: url(jk8rarn6lmw-ian-schneider.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;;
+    background-size: cover;
+}
+
+.banner h1 {
+    font-family: "Lobster", serif;
+    padding-top: 30px;
+    font-size: 5em;
+}
+
 
 img {
   max-height:100%;
@@ -9,4 +25,9 @@ img {
 
 .row{
   margin-top: 10px;
+}
+
+nav {
+  font-family: "Oswald";
+  letter-spacing: 10px;
 }
