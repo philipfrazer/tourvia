@@ -2,11 +2,13 @@
 
 <%= image_tag 'http://i.huffpost.com/gen/1716876/images/o-ATLANTA-TRAFFIC-facebook.jpg' %>
 
-<%= link_to "New Post", new_city_post_path(@city), class: "waves-effect waves-light btn-large right" %>
+<div class="new-post-button">
+    <%= link_to "New Post", new_city_post_path(@city), class: "waves-effect waves-light btn-large right" %>
+</div>
 
+<div class="row">
 <!-- loops through and displays info for each city post -->
 <% @city.posts.order(created_at: :desc).each do |post| %>
-    <div class="row">
         <div class="col s12 m6">
             <div class="card blue-grey lighten-1">
                 <div class="card-content white-text">
@@ -25,5 +27,5 @@
                 </div>
             </div>
         </div>
-    </div>
-<% end %>
+    <% end %>
+</div>
