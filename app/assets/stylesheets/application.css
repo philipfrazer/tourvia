@@ -14,14 +14,14 @@
  *= require_self
  */
 
-body{
+body {
     margin: 10px;
     font-family: 'Roboto', sans-serif;
-    /*background-color: black;*/
 }
 
-.city-image {
-    width: 400px;
+nav {
+  font-family: "Oswald";
+  letter-spacing: 10px;
 }
 
 h1 {
