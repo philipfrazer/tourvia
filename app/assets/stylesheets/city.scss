@@ -22,6 +22,38 @@ a {
     height: 75px;
 }
 
-.city-card {
-    height: 150px;
+.row {
+  margin-top: 10px;
+}
+
+.card-title {
+  font-family: "Oswald";
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+.carousel {
+  font-family: "Lobster", serif;
+  padding-top: 30px;
+  font-size: 5em;
+}
+
+.footer {
+  color: white;
+  font-family: "Oswald";
+  letter-spacing: 10px;
+}
+
+.carousel-div {
+  margin-top: 10px;
+}
+
+
+.card-image {
+  max-height: 140px;
+  margin-bottom: 150px;
+}
+
+.city-title {
+  background-color: #b4360f;
 }
